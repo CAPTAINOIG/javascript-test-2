@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="disp"></div>
+    <script>
+        // object oriented programming
+        class Student {
+            constructor(name,age,password){
+                this.name = name;
+                this.age = age;
+               this.password = password;
+            }
+            move(){
+                console.log(`${this.name} is ${this.age} years old and your password is ${this.password}`)
+            }
+            go(){
+                alert(`This is ${this.name} of ${this.age} years old`)
+            }
+
+        }
+    let Student1 = new Student('segun', '24', '1234')
+    let Student2 = new Student('seyi', '23', '0000')
+    let Student3 = new Student('adeyi', '23', '2343')
+    let Student4 = new Student('papi', '19', '4000')
+    let Student5 = new Student('idowu', '18', '5000')
+    let Student6 = new Student('titi', '20', '1000')
+    let Student7 = new Student('segun', '19', '3000')
+    let Student8 = new Student('imole', '19', '2222')
+    let Student9 = new Student('Deji', '19', '4232')
+    let Student10 = new Student('Remilekun', '19', '1000')
+    console.log(Student2, Student3, Student4, Student5, Student6, Student7, Student8, Student9, Student10);
+    Student1.move()
+    Student2.move()
+    Student3.move()
+    Student4.move()
+    Student5.move()
+    Student6.move()
+    Student7.move()
+    Student8.move()
+    Student9.move()
+    Student10.move()
+    Student1.go()
+    Student2.go()
+    Student3.go()
+    Student4.go()
+    Student5.go()
+    Student6.go()
+    Student7.go()
+    Student8.go()
+    Student9.go()
+    Student10.go()
+    </script>
+</body>
+</html>
